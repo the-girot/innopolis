@@ -10,6 +10,7 @@
 | [PostgreSQL в Docker и подключение через DBeaver](docs/postgresql%20install.md) | Запустите локальную базу, подключитесь к ней и выполните первые SQL-запросы. |
 | [Восстановление PostgreSQL из резервной копии](docs/restore%20backup.md) | Определите формат дампа, восстановите его в отдельную базу и проверите данные. |
 | [Запуск Apache Airflow в Docker на Windows](docs/airflow%20install.md) | Поднимете Airflow через Docker Compose и запустите первый DAG. |
+| [Запуск ChartDB в Docker на Windows](docs/chartdb%20install.md) | Запустите ChartDB и постройте ER-диаграмму PostgreSQL через DBeaver. |
 
 Если вы начинаете с чистого компьютера, сначала установите Docker Desktop. Для восстановления резервной копии понадобится запущенный PostgreSQL из второй инструкции. Airflow можно запускать сразу после настройки Docker: отдельный PostgreSQL из предыдущего упражнения ему не нужен.
 
